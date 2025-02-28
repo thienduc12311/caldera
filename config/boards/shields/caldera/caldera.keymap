@@ -7,7 +7,7 @@
         scan_text: scan_text {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_GUI &kp LEFT_SHIFT &kp A>;
+            bindings = <&kp RIGHT_GUI &kp LEFT_SHIFT &kp A &kp A &kp LSHFT &kp LEFT_GUI>;
             label = "SCAN_TEXT";
             tap-ms = <0>;
         };
@@ -15,7 +15,7 @@
         screen_shot: screen_shot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp S>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp S &kp S &kp LEFT_SHIFT &kp LEFT_ALT>;
             label = "SCREEN_SHOT";
             tap-ms = <0>;
         };
