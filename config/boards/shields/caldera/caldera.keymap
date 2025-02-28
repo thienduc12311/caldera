@@ -10,10 +10,10 @@
             bindings =
                 <&macro_press>,
                 <&kp RIGHT_GUI>,
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_press>,
-                <&kp A>;
+                <&macro_tap>,
+                <&kp LEFT_SHIFT &kp A>,
+                <&macro_release>,
+                <&kp LEFT_GUI>;
 
             label = "SCAN_TEXT";
         };
@@ -24,10 +24,10 @@
             bindings =
                 <&macro_press>,
                 <&kp LEFT_ALT>,
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_press>,
-                <&kp S>;
+                <&macro_tap>,
+                <&kp LEFT_SHIFT &kp S>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
 
             label = "SCREEN_SHOT";
         };
