@@ -9,7 +9,7 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_GUI &kp LEFT_SHIFT &kp A>;
             label = "SCAN_TEXT";
-            tap-ms = <200>;
+            tap-ms = <0>;
         };
 
         screen_shot: screen_shot {
@@ -17,7 +17,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp S>;
             label = "SCREEN_SHOT";
-            tap-ms = <200>;
+            tap-ms = <0>;
         };
     };
 
